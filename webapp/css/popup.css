@@ -1,0 +1,36 @@
+/* Hide the popup form by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+/* Show the popup form when the "View" link is clicked */
+.form-popup.show {
+  display: block;
+}
+
+/* Style the popup form */
+.form-container {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+/* Style the "Close" button */
+.btn.cancel {
+  float: right;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}

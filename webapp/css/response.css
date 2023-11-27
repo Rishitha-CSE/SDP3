@@ -1,0 +1,55 @@
+.card {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 3px solid #676ea3;
+  border-radius: 4px;
+}
+
+.card-header {
+  background-color: #162253;
+  padding: 10px;
+  text-align: center;
+  color:white;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: none;
+}
+.grievance-category {
+  margin-bottom: 10px;
+}
+
+.grievance-category-value {
+  font-size: 16px;
+}
+
+.grievance-response {
+  margin-bottom: 10px;
+}
+
+.grievance-response-value {
+  font-size: 16px;
+}
+
+.button {
+  background-color: #ff7200;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
